@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LinkedinTestSuit">
+              <span class="suite-name border-passed">LinkedinTestSuit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LinkedinTestSuit">
+                    <span>C:\Users\Mashuda\eclipse-workspace\SeleniumProject\APIToolsTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LinkedinTestSuit">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LinkedinTestSuit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LinkedinTestSuit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LinkedinTestSuit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LinkedinTestSuit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LinkedinTestSuit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LinkedinTestSuit" class="hide-methods passed suite-LinkedinTestSuit"> (hide)</a> <!-- hide-methods passed suite-LinkedinTestSuit -->
+                      <a href="#" panel-name="suite-LinkedinTestSuit" class="show-methods passed suite-LinkedinTestSuit"> (show)</a> <!-- show-methods passed suite-LinkedinTestSuit -->
+                    </span>
+                    <div class="method-list-content passed suite-LinkedinTestSuit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.HomePageTest" hash-for-method="ClickMyNetworkPageTest">ClickMyNetworkPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.HomePageTest" hash-for-method="ClickOnJobPageTest">ClickOnJobPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.HomePageTest" hash-for-method="ClickOnMessgaingPageTest">ClickOnMessgaingPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.MessagingPageTest" hash-for-method="ClickOnMyNetworkPageTest">ClickOnMyNetworkPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.MessagingPageTest" hash-for-method="ClickOnNotificationPage">ClickOnNotificationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.HomePageTest" hash-for-method="ClickOnNotificationPageTest">ClickOnNotificationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.LoginPageTest" hash-for-method="DataDrivenTest(mail.shahalam@rediffmail.com, Shd@123)">DataDrivenTest(mail.shahalam@rediffmail.com, Shd@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.LoginPageTest" hash-for-method="DataDrivenTest(mail.masudalaskar@rediffmail.com, Msd@123)">DataDrivenTest(mail.masudalaskar@rediffmail.com, Msd@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.MessagingPageTest" hash-for-method="ValidateTitleTest">ValidateTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.MyNetWorkPageTest" hash-for-method="clickOnHomePageTest">clickOnHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.MyNetWorkPageTest" hash-for-method="clickOnMessgingPageTest">clickOnMessgingPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.LoginPageTest" hash-for-method="validateLoginPageTitleTest">validateLoginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.LoginPageTest" hash-for-method="validateLogoTest">validateLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.MyNetWorkPageTest" hash-for-method="validateMyNetworkPageTitleTest">validateMyNetworkPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LinkedinTestSuit" title="com.qa.SalesForce.Test.HomePageTest" hash-for-method="varifyHomePageTitleTest">varifyHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LinkedinTestSuit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LinkedinTestSuit" class="panel LinkedinTestSuit">
+          <div class="suite-LinkedinTestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.SalesForce.Test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DataDrivenTest(mail.shahalam@rediffmail.com, Shd@123)">
+                  </a> <!-- DataDrivenTest(mail.shahalam@rediffmail.com, Shd@123) -->
+                  <span class="method-name">DataDrivenTest</span>
+                  <span class="parameters">(mail.shahalam@rediffmail.com, Shd@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DataDrivenTest(mail.masudalaskar@rediffmail.com, Msd@123)">
+                  </a> <!-- DataDrivenTest(mail.masudalaskar@rediffmail.com, Msd@123) -->
+                  <span class="method-name">DataDrivenTest</span>
+                  <span class="parameters">(mail.masudalaskar@rediffmail.com, Msd@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginPageTitleTest">
+                  </a> <!-- validateLoginPageTitleTest -->
+                  <span class="method-name">validateLoginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogoTest">
+                  </a> <!-- validateLogoTest -->
+                  <span class="method-name">validateLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LinkedinTestSuit-class-passed -->
+          <div class="suite-LinkedinTestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.SalesForce.Test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickMyNetworkPageTest">
+                  </a> <!-- ClickMyNetworkPageTest -->
+                  <span class="method-name">ClickMyNetworkPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnJobPageTest">
+                  </a> <!-- ClickOnJobPageTest -->
+                  <span class="method-name">ClickOnJobPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnMessgaingPageTest">
+                  </a> <!-- ClickOnMessgaingPageTest -->
+                  <span class="method-name">ClickOnMessgaingPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnNotificationPageTest">
+                  </a> <!-- ClickOnNotificationPageTest -->
+                  <span class="method-name">ClickOnNotificationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="varifyHomePageTitleTest">
+                  </a> <!-- varifyHomePageTitleTest -->
+                  <span class="method-name">varifyHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LinkedinTestSuit-class-passed -->
+          <div class="suite-LinkedinTestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.SalesForce.Test.MyNetWorkPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnHomePageTest">
+                  </a> <!-- clickOnHomePageTest -->
+                  <span class="method-name">clickOnHomePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnMessgingPageTest">
+                  </a> <!-- clickOnMessgingPageTest -->
+                  <span class="method-name">clickOnMessgingPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMyNetworkPageTitleTest">
+                  </a> <!-- validateMyNetworkPageTitleTest -->
+                  <span class="method-name">validateMyNetworkPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LinkedinTestSuit-class-passed -->
+          <div class="suite-LinkedinTestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.SalesForce.Test.MessagingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnMyNetworkPageTest">
+                  </a> <!-- ClickOnMyNetworkPageTest -->
+                  <span class="method-name">ClickOnMyNetworkPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnNotificationPage">
+                  </a> <!-- ClickOnNotificationPage -->
+                  <span class="method-name">ClickOnNotificationPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTitleTest">
+                  </a> <!-- ValidateTitleTest -->
+                  <span class="method-name">ValidateTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LinkedinTestSuit-class-passed -->
+        </div> <!-- panel LinkedinTestSuit -->
+        <div panel-name="test-xml-LinkedinTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Mashuda\eclipse-workspace\SeleniumProject\APIToolsTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;LinkedinTestSuit&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.SalesForce.ExtendReport.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;LinkedinTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.SalesForce.Test.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.SalesForce.Test.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.SalesForce.Test.MessagingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.SalesForce.Test.MyNetWorkPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LinkedinTest --&gt;
+&lt;/suite&gt; &lt;!-- LinkedinTestSuit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LinkedinTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LinkedinTestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LinkedinTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LinkedinTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LinkedinTestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LinkedinTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LinkedinTestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LinkedinTestSuit');
+function tableData_LinkedinTestSuit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DataDrivenTest')
+data.setCell(0, 2, 'com.qa.SalesForce.Test.LoginPageTest')
+data.setCell(0, 3, 11726);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DataDrivenTest')
+data.setCell(1, 2, 'com.qa.SalesForce.Test.LoginPageTest')
+data.setCell(1, 3, 10515);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClickOnNotificationPageTest')
+data.setCell(2, 2, 'com.qa.SalesForce.Test.HomePageTest')
+data.setCell(2, 3, 8534);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ClickMyNetworkPageTest')
+data.setCell(3, 2, 'com.qa.SalesForce.Test.HomePageTest')
+data.setCell(3, 3, 8351);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickOnJobPageTest')
+data.setCell(4, 2, 'com.qa.SalesForce.Test.HomePageTest')
+data.setCell(4, 3, 6060);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ClickOnMessgaingPageTest')
+data.setCell(5, 2, 'com.qa.SalesForce.Test.HomePageTest')
+data.setCell(5, 3, 5598);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ClickOnMyNetworkPageTest')
+data.setCell(6, 2, 'com.qa.SalesForce.Test.MessagingPageTest')
+data.setCell(6, 3, 5472);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'varifyHomePageTitleTest')
+data.setCell(7, 2, 'com.qa.SalesForce.Test.HomePageTest')
+data.setCell(7, 3, 3206);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickOnMessgingPageTest')
+data.setCell(8, 2, 'com.qa.SalesForce.Test.MyNetWorkPageTest')
+data.setCell(8, 3, 3108);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickOnHomePageTest')
+data.setCell(9, 2, 'com.qa.SalesForce.Test.MyNetWorkPageTest')
+data.setCell(9, 3, 2352);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginTest')
+data.setCell(10, 2, 'com.qa.SalesForce.Test.LoginPageTest')
+data.setCell(10, 3, 1772);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ClickOnNotificationPage')
+data.setCell(11, 2, 'com.qa.SalesForce.Test.MessagingPageTest')
+data.setCell(11, 3, 1656);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateMyNetworkPageTitleTest')
+data.setCell(12, 2, 'com.qa.SalesForce.Test.MyNetWorkPageTest')
+data.setCell(12, 3, 1442);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ValidateTitleTest')
+data.setCell(13, 2, 'com.qa.SalesForce.Test.MessagingPageTest')
+data.setCell(13, 3, 719);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateLogoTest')
+data.setCell(14, 2, 'com.qa.SalesForce.Test.LoginPageTest')
+data.setCell(14, 3, 284);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateLoginPageTitleTest')
+data.setCell(15, 2, 'com.qa.SalesForce.Test.LoginPageTest')
+data.setCell(15, 3, 25);
+window.suiteTableData['LinkedinTestSuit']= { tableData: data, tableDiv: 'times-div-LinkedinTestSuit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-LinkedinTestSuit">
+              </div> <!-- times-div-LinkedinTestSuit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LinkedinTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LinkedinTestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LinkedinTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LinkedinTestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">varifyHomePageTitleTest</span>
+                <span class="method-start">30420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">33626 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">36040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginPageTitleTest</span>
+                <span class="method-start">45655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">45686 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.MessagingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnMyNetworkPageTest</span>
+                <span class="method-start">68833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">74305 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.MyNetWorkPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">75361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateMyNetworkPageTitleTest</span>
+                <span class="method-start">97711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">99153 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">100726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickMyNetworkPageTest</span>
+                <span class="method-start">116094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">124465 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">125125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLogoTest</span>
+                <span class="method-start">132089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">132375 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.MessagingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateTitleTest</span>
+                <span class="method-start">145454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">146173 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.MyNetWorkPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">146911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnHomePageTest</span>
+                <span class="method-start">161169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">163521 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">164385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnJobPageTest</span>
+                <span class="method-start">177336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">183396 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">186547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">195161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">196937 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.MessagingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">198007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnNotificationPage</span>
+                <span class="method-start">219901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">221557 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.MyNetWorkPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">223436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnMessgingPageTest</span>
+                <span class="method-start">237343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">240451 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">241502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnMessgaingPageTest</span>
+                <span class="method-start">256631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">262229 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">266178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DataDrivenTest(mail.masudalaskar@rediffmail.com, Msd@123)</span>
+                <span class="method-start">279236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">290962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">292573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DataDrivenTest(mail.shahalam@rediffmail.com, Shd@123)</span>
+                <span class="method-start">301028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">311543 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.SalesForce.Test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUP</span>
+                <span class="method-start">312383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnNotificationPageTest</span>
+                <span class="method-start">323669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">332203 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

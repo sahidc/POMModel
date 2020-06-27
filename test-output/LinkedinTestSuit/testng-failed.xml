@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LinkedinTestSuit]">
+  <test name="LinkedinTest(failed)">
+    <classes>
+      <class name="com.qa.SalesForce.Test.MessagingPageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+          <include name="ValidateTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.SalesForce.Test.MessagingPageTest -->
+    </classes>
+  </test> <!-- LinkedinTest(failed) -->
+</suite> <!-- Failed suite [LinkedinTestSuit] -->

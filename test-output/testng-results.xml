@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LinkedinTestSuit" duration-ms="333013" started-at="2020-06-27T17:52:56Z" finished-at="2020-06-27T17:58:29Z">
+    <groups>
+    </groups>
+    <test name="LinkedinTest" duration-ms="333013" started-at="2020-06-27T17:52:56Z" finished-at="2020-06-27T17:58:29Z">
+      <class name="com.qa.SalesForce.Test.MyNetWorkPageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="setUP" is-config="true" duration-ms="22350" started-at="2020-06-27T23:24:12Z" finished-at="2020-06-27T23:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="validateMyNetworkPageTitleTest()[pri:1, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="validateMyNetworkPageTitleTest" duration-ms="1442" started-at="2020-06-27T23:24:34Z" finished-at="2020-06-27T23:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyNetworkPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="TearDown" is-config="true" duration-ms="1573" started-at="2020-06-27T23:24:35Z" finished-at="2020-06-27T23:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="setUP" is-config="true" duration-ms="14258" started-at="2020-06-27T23:25:23Z" finished-at="2020-06-27T23:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="clickOnHomePageTest()[pri:2, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="clickOnHomePageTest" duration-ms="2352" started-at="2020-06-27T23:25:37Z" finished-at="2020-06-27T23:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHomePageTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="TearDown" is-config="true" duration-ms="864" started-at="2020-06-27T23:25:40Z" finished-at="2020-06-27T23:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="setUP" is-config="true" duration-ms="13907" started-at="2020-06-27T23:26:40Z" finished-at="2020-06-27T23:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="clickOnMessgingPageTest()[pri:3, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="clickOnMessgingPageTest" duration-ms="3108" started-at="2020-06-27T23:26:53Z" finished-at="2020-06-27T23:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMessgingPageTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d]" name="TearDown" is-config="true" duration-ms="1051" started-at="2020-06-27T23:26:57Z" finished-at="2020-06-27T23:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.SalesForce.Test.MyNetWorkPageTest -->
+      <class name="com.qa.SalesForce.Test.MessagingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="setUp" is-config="true" duration-ms="22458" started-at="2020-06-27T23:23:43Z" finished-at="2020-06-27T23:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickOnMyNetworkPageTest()[pri:1, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="ClickOnMyNetworkPageTest" duration-ms="5472" started-at="2020-06-27T23:24:05Z" finished-at="2020-06-27T23:24:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnMyNetworkPageTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="TearDown" is-config="true" duration-ms="1056" started-at="2020-06-27T23:24:10Z" finished-at="2020-06-27T23:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="setUp" is-config="true" duration-ms="12399" started-at="2020-06-27T23:25:09Z" finished-at="2020-06-27T23:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateTitleTest()[pri:2, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="ValidateTitleTest" duration-ms="719" started-at="2020-06-27T23:25:22Z" finished-at="2020-06-27T23:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="TearDown" is-config="true" duration-ms="738" started-at="2020-06-27T23:25:22Z" finished-at="2020-06-27T23:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="setUp" is-config="true" duration-ms="21894" started-at="2020-06-27T23:26:14Z" finished-at="2020-06-27T23:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ClickOnNotificationPage()[pri:3, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="ClickOnNotificationPage" duration-ms="1656" started-at="2020-06-27T23:26:36Z" finished-at="2020-06-27T23:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnNotificationPage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.MessagingPageTest@17c1bced]" name="TearDown" is-config="true" duration-ms="1879" started-at="2020-06-27T23:26:38Z" finished-at="2020-06-27T23:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.SalesForce.Test.MessagingPageTest -->
+      <class name="com.qa.SalesForce.Test.HomePageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="setUP" is-config="true" duration-ms="30420" started-at="2020-06-27T23:22:56Z" finished-at="2020-06-27T23:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="varifyHomePageTitleTest()[pri:1, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="varifyHomePageTitleTest" duration-ms="3206" started-at="2020-06-27T23:23:27Z" finished-at="2020-06-27T23:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyHomePageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="TearDown" is-config="true" duration-ms="2410" started-at="2020-06-27T23:23:30Z" finished-at="2020-06-27T23:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="setUP" is-config="true" duration-ms="15368" started-at="2020-06-27T23:24:37Z" finished-at="2020-06-27T23:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="ClickMyNetworkPageTest()[pri:2, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="ClickMyNetworkPageTest" duration-ms="8351" started-at="2020-06-27T23:24:52Z" finished-at="2020-06-27T23:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickMyNetworkPageTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="TearDown" is-config="true" duration-ms="660" started-at="2020-06-27T23:25:01Z" finished-at="2020-06-27T23:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="setUP" is-config="true" duration-ms="12951" started-at="2020-06-27T23:25:41Z" finished-at="2020-06-27T23:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="ClickOnJobPageTest()[pri:3, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="ClickOnJobPageTest" duration-ms="6060" started-at="2020-06-27T23:25:53Z" finished-at="2020-06-27T23:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnJobPageTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="TearDown" is-config="true" duration-ms="3151" started-at="2020-06-27T23:26:00Z" finished-at="2020-06-27T23:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="setUP" is-config="true" duration-ms="15129" started-at="2020-06-27T23:26:58Z" finished-at="2020-06-27T23:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="ClickOnMessgaingPageTest()[pri:4, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="ClickOnMessgaingPageTest" duration-ms="5598" started-at="2020-06-27T23:27:13Z" finished-at="2020-06-27T23:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnMessgaingPageTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="TearDown" is-config="true" duration-ms="1174" started-at="2020-06-27T23:27:18Z" finished-at="2020-06-27T23:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="setUP" is-config="true" duration-ms="11286" started-at="2020-06-27T23:28:09Z" finished-at="2020-06-27T23:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="ClickOnNotificationPageTest()[pri:5, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="ClickOnNotificationPageTest" duration-ms="8534" started-at="2020-06-27T23:28:20Z" finished-at="2020-06-27T23:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnNotificationPageTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.HomePageTest@50a7bc6e]" name="TearDown" is-config="true" duration-ms="770" started-at="2020-06-27T23:28:28Z" finished-at="2020-06-27T23:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.SalesForce.Test.HomePageTest -->
+      <class name="com.qa.SalesForce.Test.LoginPageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="setUP" is-config="true" duration-ms="9615" started-at="2020-06-27T23:23:32Z" finished-at="2020-06-27T23:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="validateLoginPageTitleTest()[pri:1, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="validateLoginPageTitleTest" duration-ms="25" started-at="2020-06-27T23:23:42Z" finished-at="2020-06-27T23:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="TearDown" is-config="true" duration-ms="689" started-at="2020-06-27T23:23:42Z" finished-at="2020-06-27T23:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="setUP" is-config="true" duration-ms="6964" started-at="2020-06-27T23:25:01Z" finished-at="2020-06-27T23:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="validateLogoTest()[pri:2, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="validateLogoTest" duration-ms="284" started-at="2020-06-27T23:25:08Z" finished-at="2020-06-27T23:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="TearDown" is-config="true" duration-ms="680" started-at="2020-06-27T23:25:09Z" finished-at="2020-06-27T23:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="setUP" is-config="true" duration-ms="8614" started-at="2020-06-27T23:26:03Z" finished-at="2020-06-27T23:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="loginTest" duration-ms="1772" started-at="2020-06-27T23:26:11Z" finished-at="2020-06-27T23:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="TearDown" is-config="true" duration-ms="1070" started-at="2020-06-27T23:26:13Z" finished-at="2020-06-27T23:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="setUP" is-config="true" duration-ms="13058" started-at="2020-06-27T23:27:22Z" finished-at="2020-06-27T23:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="DataDrivenTest(java.lang.String, java.lang.String)[pri:4, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="DataDrivenTest" duration-ms="11726" started-at="2020-06-27T23:27:35Z" data-provider="myTestData" finished-at="2020-06-27T23:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail.masudalaskar@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Msd@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="TearDown" is-config="true" duration-ms="1611" started-at="2020-06-27T23:27:47Z" finished-at="2020-06-27T23:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="setUP" is-config="true" duration-ms="8455" started-at="2020-06-27T23:27:49Z" finished-at="2020-06-27T23:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="DataDrivenTest(java.lang.String, java.lang.String)[pri:4, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="DataDrivenTest" duration-ms="10515" started-at="2020-06-27T23:27:57Z" data-provider="myTestData" finished-at="2020-06-27T23:28:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail.shahalam@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shd@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.SalesForce.Test.LoginPageTest@161b062a]" name="TearDown" is-config="true" duration-ms="840" started-at="2020-06-27T23:28:08Z" finished-at="2020-06-27T23:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.SalesForce.Test.LoginPageTest -->
+    </test> <!-- LinkedinTest -->
+  </suite> <!-- LinkedinTestSuit -->
+</testng-results>
