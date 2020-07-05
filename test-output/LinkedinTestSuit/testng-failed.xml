@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [LinkedinTestSuit]">
+  <listeners>
+    <listener class-name="com.qa.SalesForce.ExtendReport.ExtentReporterNG"/>
+  </listeners>
   <test name="LinkedinTest(failed)">
     <classes>
+      <class name="com.qa.SalesForce.Test.HomePageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="varifyHomePageTitleTest"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.SalesForce.Test.HomePageTest -->
       <class name="com.qa.SalesForce.Test.MessagingPageTest">
         <methods>
           <include name="TearDown"/>

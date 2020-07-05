@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>LinkedinTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 27 23:22:56 IST 2020</td>
+<td>Started on:</td><td>Mon Jun 29 00:12:59 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>333 seconds (333013 ms)</td>
+<tr><td>Total time:</td><td>441 seconds (441779 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,96 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.SalesForce.Test.MessagingPageTest.ValidateTitleTest()'><b>ValidateTitleTest</b><br>Test class: com.qa.SalesForce.Test.MessagingPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Messaging | LinkedIn] but found [LinkedIn]
+	at com.qa.SalesForce.Test.MessagingPageTest.ValidateTitleTest(MessagingPageTest.java:45)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2129844134", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2129844134'><pre>java.lang.AssertionError: expected [Messaging | LinkedIn] but found [LinkedIn]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.qa.SalesForce.Test.MessagingPageTest.ValidateTitleTest(MessagingPageTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.SalesForce.Test.MessagingPageTest@17c1bced</td></tr>
+<tr>
+<td title='com.qa.SalesForce.Test.HomePageTest.varifyHomePageTitleTest()'><b>varifyHomePageTitleTest</b><br>Test class: com.qa.SalesForce.Test.HomePageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [LinkedIn] but found [(1) LinkedIn]
+	at com.qa.SalesForce.Test.HomePageTest.varifyHomePageTitleTest(HomePageTest.java:40)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace400064818", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace400064818'><pre>java.lang.AssertionError: expected [LinkedIn] but found [(1) LinkedIn]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.qa.SalesForce.Test.HomePageTest.varifyHomePageTitleTest(HomePageTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.SalesForce.Test.HomePageTest@50a7bc6e</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -82,12 +172,12 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.qa.SalesForce.Test.HomePageTest.ClickOnJobPageTest()'><b>ClickOnJobPageTest</b><br>Test class: com.qa.SalesForce.Test.HomePageTest</td>
 <td></td>
-<td>6</td>
+<td>8</td>
 <td>com.qa.SalesForce.Test.HomePageTest@50a7bc6e</td></tr>
 <tr>
 <td title='com.qa.SalesForce.Test.HomePageTest.ClickOnMessgaingPageTest()'><b>ClickOnMessgaingPageTest</b><br>Test class: com.qa.SalesForce.Test.HomePageTest</td>
 <td></td>
-<td>5</td>
+<td>4</td>
 <td>com.qa.SalesForce.Test.HomePageTest@50a7bc6e</td></tr>
 <tr>
 <td title='com.qa.SalesForce.Test.MessagingPageTest.ClickOnMyNetworkPageTest()'><b>ClickOnMyNetworkPageTest</b><br>Test class: com.qa.SalesForce.Test.MessagingPageTest</td>
@@ -97,7 +187,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.qa.SalesForce.Test.MessagingPageTest.ClickOnNotificationPage()'><b>ClickOnNotificationPage</b><br>Test class: com.qa.SalesForce.Test.MessagingPageTest</td>
 <td></td>
-<td>1</td>
+<td>5</td>
 <td>com.qa.SalesForce.Test.MessagingPageTest@17c1bced</td></tr>
 <tr>
 <td title='com.qa.SalesForce.Test.HomePageTest.ClickOnNotificationPageTest()'><b>ClickOnNotificationPageTest</b><br>Test class: com.qa.SalesForce.Test.HomePageTest</td>
@@ -107,32 +197,27 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.qa.SalesForce.Test.LoginPageTest.DataDrivenTest()'><b>DataDrivenTest</b><br>Test class: com.qa.SalesForce.Test.LoginPageTest<br>Parameters: mail.masudalaskar@rediffmail.com, Msd@123</td>
 <td></td>
-<td>11</td>
+<td>15</td>
 <td>com.qa.SalesForce.Test.LoginPageTest@161b062a</td></tr>
 <tr>
 <td title='com.qa.SalesForce.Test.LoginPageTest.DataDrivenTest()'><b>DataDrivenTest</b><br>Test class: com.qa.SalesForce.Test.LoginPageTest<br>Parameters: mail.shahalam@rediffmail.com, Shd@123</td>
 <td></td>
-<td>10</td>
+<td>11</td>
 <td>com.qa.SalesForce.Test.LoginPageTest@161b062a</td></tr>
 <tr>
-<td title='com.qa.SalesForce.Test.MessagingPageTest.ValidateTitleTest()'><b>ValidateTitleTest</b><br>Test class: com.qa.SalesForce.Test.MessagingPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.qa.SalesForce.Test.MessagingPageTest@17c1bced</td></tr>
-<tr>
 <td title='com.qa.SalesForce.Test.MyNetWorkPageTest.clickOnHomePageTest()'><b>clickOnHomePageTest</b><br>Test class: com.qa.SalesForce.Test.MyNetWorkPageTest</td>
-<td></td>
-<td>2</td>
-<td>com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d</td></tr>
-<tr>
-<td title='com.qa.SalesForce.Test.MyNetWorkPageTest.clickOnMessgingPageTest()'><b>clickOnMessgingPageTest</b><br>Test class: com.qa.SalesForce.Test.MyNetWorkPageTest</td>
 <td></td>
 <td>3</td>
 <td>com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d</td></tr>
 <tr>
+<td title='com.qa.SalesForce.Test.MyNetWorkPageTest.clickOnMessgingPageTest()'><b>clickOnMessgingPageTest</b><br>Test class: com.qa.SalesForce.Test.MyNetWorkPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d</td></tr>
+<tr>
 <td title='com.qa.SalesForce.Test.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.qa.SalesForce.Test.LoginPageTest</td>
 <td></td>
-<td>1</td>
+<td>9</td>
 <td>com.qa.SalesForce.Test.LoginPageTest@161b062a</td></tr>
 <tr>
 <td title='com.qa.SalesForce.Test.LoginPageTest.validateLoginPageTitleTest()'><b>validateLoginPageTitleTest</b><br>Test class: com.qa.SalesForce.Test.LoginPageTest</td>
@@ -147,13 +232,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.qa.SalesForce.Test.MyNetWorkPageTest.validateMyNetworkPageTitleTest()'><b>validateMyNetworkPageTitleTest</b><br>Test class: com.qa.SalesForce.Test.MyNetWorkPageTest</td>
 <td></td>
-<td>1</td>
+<td>0</td>
 <td>com.qa.SalesForce.Test.MyNetWorkPageTest@2d9d4f9d</td></tr>
-<tr>
-<td title='com.qa.SalesForce.Test.HomePageTest.varifyHomePageTitleTest()'><b>varifyHomePageTitleTest</b><br>Test class: com.qa.SalesForce.Test.HomePageTest</td>
-<td></td>
-<td>3</td>
-<td>com.qa.SalesForce.Test.HomePageTest@50a7bc6e</td></tr>
 </table><p>
 </body>
 </html>
