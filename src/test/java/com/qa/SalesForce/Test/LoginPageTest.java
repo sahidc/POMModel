@@ -16,12 +16,12 @@ import com.qa.SalesForce.Pages.HomePage;
 import com.qa.SalesForce.Pages.LoginPage;
 import com.qa.SalesForce.Util.TestUtil;
 import com.qa.SalesForce.Util.TestUtil1;
+import com.util.JiraPolicy;
 
 
 public class LoginPageTest extends TestBase{
 	LoginPage loginPage;
 	HomePage homePage;
-	
 	public LoginPageTest() {
 		super();
 	}
@@ -30,17 +30,20 @@ public class LoginPageTest extends TestBase{
     	 initialization();
     	  loginPage=new LoginPage();
     	 }
+    @JiraPolicy(logTicketReady=true)
     @Test(priority=1)
      public void  validateLoginPageTitleTest() {
     	String Title= loginPage.validateLoginPageTitle();
     	Assert.assertEquals(Title, TestUtil.ExpectedTitle);
      }
+    @JiraPolicy(logTicketReady=true)
     @Test(priority=2)
 
      public void validateLogoTest() {
     	boolean flag= loginPage.validateLogo();
     	Assert.assertTrue(flag);
      }
+    @JiraPolicy(logTicketReady=true)
     @Test(priority=3)
 
      public void loginTest() {
@@ -56,6 +59,7 @@ public class LoginPageTest extends TestBase{
  		ArrayList<Object[]> data=TestUtil1.getDataFromExcel();
  		return data.iterator();
  		}
+ 	@JiraPolicy(logTicketReady=true)
      @Test(priority=4,dataProvider="myTestData")
      public void DataDrivenTest(String UserId,String Password)throws InterruptedException  {
     	 loginPage.DataDriven();

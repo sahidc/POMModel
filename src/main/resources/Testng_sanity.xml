@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
- 
-<suite name="LinkedinTestSuit" verbose="1" >
-  <test name="LinkedinTest"   >
+ <suite name="HubSpotTestSuit" verbose="1" >
+<listeners>
+		<listener class-name="com.qa.SalesForce.ExtendReport.ExtentReporterNG" />
+	</listeners>
+	<listeners>
+		<listener class-name="com.listner.TestJiraListner" />
+	</listeners>
+  <test name="SalesForceTestJob"   >
     <classes>
-<!--       <class name="com.qa.SalesForce.Test.HomePageTest" />
- -->      
- <class name="com.qa.SalesForce.Test.LoginPageTest" />
-      
-      <class name="com.qa.SalesForce.Test.MessagingPageTest" />
-      <class name="com.qa.SalesForce.Test.MyNetWorkPageTest" />
+       <class name="com.qa.SalesForce.Test.LoginPageTest" />
    </classes>
  </test>
 </suite>

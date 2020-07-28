@@ -5,6 +5,10 @@
 <listeners>
 		<listener class-name="com.qa.SalesForce.ExtendReport.ExtentReporterNG" />
 	</listeners>
+<listeners>
+		<listener class-name="com.listner.TestJira" />
+	</listeners>
+	
   
   <test name="LinkedinTest"   >
     <classes>
